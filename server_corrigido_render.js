@@ -14,7 +14,7 @@ app.use(express.json());
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-const TINY_API_TOKEN = 'SEU_TOKEN_AQUI';
+const TINY_API_TOKEN = '1e6179c913763c06b4de0501840a31f184fde20f';
 
 let propostasAgrupadas = [];
 
